@@ -1,0 +1,490 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "BubbleSort",
+            "request": "launch",
+            "mainClass": "Basic.Sorting.BubbleSort",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "ReturnArrayFromFunction",
+            "request": "launch",
+            "mainClass": "Basic.Arrayss.ReturnArrayFromFunction",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "LeftAndRightRotationsByDthElement",
+            "request": "launch",
+            "mainClass": "Test.Strings.LeftAndRightRotationsByDthElement",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "AllPossibleSequencedSubstrings",
+            "request": "launch",
+            "mainClass": "Test.Strings.AllPossibleSequencedSubstrings",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "AddStarBeforeEveryInputIndexInString",
+            "request": "launch",
+            "mainClass": "Test.Strings.AddStarBeforeEveryInputIndexInString",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "JavelinThrow",
+            "request": "launch",
+            "mainClass": "Test.Arrays.JavelinThrow",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "AllPossibleSubstrings",
+            "request": "launch",
+            "mainClass": "Test.Strings.AllPossibleSubstrings",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "FindPalindrome",
+            "request": "launch",
+            "mainClass": "Class.BitMasking.FindPalindrome",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "FindTrailingZeroesInBits",
+            "request": "launch",
+            "mainClass": "Class.BitMasking.FindTrailingZeroesInBits",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "FindAllTheZerosInNumber",
+            "request": "launch",
+            "mainClass": "Class.BitMasking.FindAllTheZerosInNumber",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "NonRepeatingCharactersStringAndPrintIndex",
+            "request": "launch",
+            "mainClass": "Class.Strings.NonRepeatingCharactersStringAndPrintIndex",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "CurrentSystemTime",
+            "request": "launch",
+            "mainClass": "Class.Strings.CurrentSystemTime",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "CountDuplicateincludedASCIIvalues",
+            "request": "launch",
+            "mainClass": "Class.Strings.CountDuplicateincludedASCIIvalues",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "abcdef_defghi",
+            "request": "launch",
+            "mainClass": "Class.Strings.abcdef_defghi",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "Panagram",
+            "request": "launch",
+            "mainClass": "Class.Strings.Panagram",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "a2b2c2a1b1c1d1",
+            "request": "launch",
+            "mainClass": "Class.Strings.a2b2c2a1b1c1d1",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "StringToArray",
+            "request": "launch",
+            "mainClass": "Misc.Arrays.StringToArray",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "MergeSortPLAINTEST",
+            "request": "launch",
+            "mainClass": "Test.SortingSearching.MergeSortPLAINTEST",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "SelectionSortForBob",
+            "request": "launch",
+            "mainClass": "Test.SortingSearching.SelectionSortForBob",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "SelectionSort",
+            "request": "launch",
+            "mainClass": "Basic.Sorting.SelectionSort",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "PrintingAnArray",
+            "request": "launch",
+            "mainClass": "Basic.Arrayss.PrintingAnArray",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "WaysToResizeAnArray",
+            "request": "launch",
+            "mainClass": "Basic.Arrayss.WaysToResizeAnArray",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "Playground2",
+            "request": "launch",
+            "mainClass": "Playground2",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "TypeCasting",
+            "request": "launch",
+            "mainClass": "Basic.Beginner.TypeCasting",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "LexicograpphicallySmallerTagGeneration",
+            "request": "launch",
+            "mainClass": "Class.FromPDF.Strings.LexicograpphicallySmallerTagGeneration",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "RemoveTrailingSpace",
+            "request": "launch",
+            "mainClass": "Class.FromPDF.Strings.RemoveTrailingSpace",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "FirstNonRepeatingCharacter",
+            "request": "launch",
+            "mainClass": "Class.FromPDF.Strings.FirstNonRepeatingCharacter",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "RotateAnArray",
+            "request": "launch",
+            "mainClass": "Misc.Arrays.RotateAnArray",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "SwapLastRowWithLastColumn",
+            "request": "launch",
+            "mainClass": "Misc.Arrays.SwapLastRowWithLastColumn",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "ReverseAnArray",
+            "request": "launch",
+            "mainClass": "Misc.Arrays.ReverseAnArray",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "JaggedArray",
+            "request": "launch",
+            "mainClass": "Basic.Arrayss.JaggedArray",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "MoreAboutArrays",
+            "request": "launch",
+            "mainClass": "Basic.Arrayss.MoreAboutArrays",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "PrintingAnArray",
+            "request": "launch",
+            "mainClass": "Basic.PrintingAnArray",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "TypeCasting",
+            "request": "launch",
+            "mainClass": "Basic.TypeCasting",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "StaticVariables",
+            "request": "launch",
+            "mainClass": "Basic.StaticVariables",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "WeirdAnimalSoundInheritance",
+            "request": "launch",
+            "mainClass": "Test.InheritanceClasses.WeirdAnimalSoundInheritance",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "MultiLevelInheritanceVehicles",
+            "request": "launch",
+            "mainClass": "Test.InheritanceClasses.MultiLevelInheritanceVehicles",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "PrincipalDiagonalAndSecondaryDiagonalIn2dArray",
+            "request": "launch",
+            "mainClass": "Test.PrincipalDiagonalAndSecondaryDiagonalIn2dArray",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "SecondLargestInArray",
+            "request": "launch",
+            "mainClass": "Test.SecondLargestInArray",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "Binary",
+            "request": "launch",
+            "mainClass": "Basic.Binary",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "Pattern222",
+            "request": "launch",
+            "mainClass": "Class.FromPDF.Pattern222",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "aPattern",
+            "request": "launch",
+            "mainClass": "Test.aPattern",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "FrequencyOfDigits",
+            "request": "launch",
+            "mainClass": "Class.FromPDF.FrequencyOfDigits",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "MergeAndSortArray",
+            "request": "launch",
+            "mainClass": "Test.MergeAndSortArray",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "RotateArrayClockwiseWithStep",
+            "request": "launch",
+            "mainClass": "Class.Test.RotateArrayClockwiseWithStep",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "PrintingInDecimalPoints",
+            "request": "launch",
+            "mainClass": "Basic.PrintingInDecimalPoints",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "MoreAboutArrays",
+            "request": "launch",
+            "mainClass": "Basic.MoreAboutArrays",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "Casting",
+            "request": "launch",
+            "mainClass": "Basic.Casting",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "SwitchStatement",
+            "request": "launch",
+            "mainClass": "Basic.SwitchStatement",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "TakingInput",
+            "request": "launch",
+            "mainClass": "Basic.TakingInput",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "Operators",
+            "request": "launch",
+            "mainClass": "Basic.Operators",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "HelloAndDataTypes",
+            "request": "launch",
+            "mainClass": "Basic.HelloAndDataTypes",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "GuessTheNumber",
+            "request": "launch",
+            "mainClass": "Basic.GuessTheNumber",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "Mathssss",
+            "request": "launch",
+            "mainClass": "Basic.Mathssss",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "NameAndAverageMarks",
+            "request": "launch",
+            "mainClass": "CodingNinja.IntroToJava.gettingStartedWithJava.NameAndAverageMarks",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "ReverseAnArray",
+            "request": "launch",
+            "mainClass": "Class.ReverseAnArray",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "Playground",
+            "request": "launch",
+            "mainClass": "Playground",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Casting",
+            "request": "launch",
+            "mainClass": "Basic.Casting",
+            "projectName": "Java_9cc87692"
+        },
+        {
+            "type": "java",
+            "name": "GuessTheNumber",
+            "request": "launch",
+            "mainClass": "Basic.GuessTheNumber",
+            "projectName": "Java_9cc87692"
+        },
+        {
+            "type": "java",
+            "name": "HelloAndDataTypes",
+            "request": "launch",
+            "mainClass": "Basic.HelloAndDataTypes",
+            "projectName": "Java_9cc87692"
+        },
+        {
+            "type": "java",
+            "name": "Mathssss",
+            "request": "launch",
+            "mainClass": "Basic.Mathssss",
+            "projectName": "Java_9cc87692"
+        },
+        {
+            "type": "java",
+            "name": "MoreAboutArrays",
+            "request": "launch",
+            "mainClass": "Basic.MoreAboutArrays",
+            "projectName": "Java_9cc87692"
+        },
+        {
+            "type": "java",
+            "name": "Operators",
+            "request": "launch",
+            "mainClass": "Basic.Operators",
+            "projectName": "Java_9cc87692"
+        },
+        {
+            "type": "java",
+            "name": "SwitchStatement",
+            "request": "launch",
+            "mainClass": "Basic.SwitchStatement",
+            "projectName": "Java_9cc87692"
+        },
+        {
+            "type": "java",
+            "name": "TakingInput",
+            "request": "launch",
+            "mainClass": "Basic.TakingInput",
+            "projectName": "Java_9cc87692"
+        },
+        {
+            "type": "java",
+            "name": "CircleRadius",
+            "request": "launch",
+            "mainClass": "Class.CircleRadius",
+            "projectName": "Java_9cc87692"
+        },
+        {
+            "type": "java",
+            "name": "SumofDigits",
+            "request": "launch",
+            "mainClass": "Class.SumofDigits",
+            "projectName": "Java_9cc87692"
+        },
+        {
+            "type": "java",
+            "name": "aPattern",
+            "request": "launch",
+            "mainClass": "Class.Test.aPattern",
+            "projectName": "Java_9cc87692"
+        }
+    ]
+}

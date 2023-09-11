@@ -1,0 +1,28 @@
+{
+    "java.debug.settings.onBuildFailureProceed": true,
+    // "java.debug.settings.enableRunDebugCodeLens": false,
+    // "java.debug.settings.showLogicalStructure": false,
+    "java.debug.logLevel":"error",
+    "editor.parameterHints.cycle": false,
+    "editor.suggest.showTypeParameters": false,
+    "editor.hover.above": false,
+    "java.signatureHelp.description.enabled": false,
+    // "editor.hover.enabled": false,
+    "files.exclude": {
+    "**/.settings": false,
+    "**/*.class": true
+    },
+    "java.inlayHints.parameterNames.enabled": "none",
+    "editor.parameterHints.enabled": false,
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Program Files\\Java\\javafx-sdk-20\\lib\\javafx-swt.jar",
+        "c:\\Program Files\\Java\\javafx-sdk-20\\lib\\javafx.web.jar",
+        "c:\\Program Files\\Java\\javafx-sdk-20\\lib\\javafx.swing.jar",
+        "c:\\Program Files\\Java\\javafx-sdk-20\\lib\\javafx.media.jar",
+        "c:\\Program Files\\Java\\javafx-sdk-20\\lib\\javafx.graphics.jar",
+        "c:\\Program Files\\Java\\javafx-sdk-20\\lib\\javafx.fxml.jar",
+        "c:\\Program Files\\Java\\javafx-sdk-20\\lib\\javafx.controls.jar",
+        "c:\\Program Files\\Java\\javafx-sdk-20\\lib\\javafx.base.jar"
+    ],
+}
