@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ProductArrayExceptSElf",
+            "request": "launch",
+            "mainClass": "Misc.Arrays.ProductArrayExceptSElf",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
             "name": "BubbleSort",
             "request": "launch",
             "mainClass": "Basic.Sorting.BubbleSort",
