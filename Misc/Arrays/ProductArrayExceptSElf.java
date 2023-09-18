@@ -1,7 +1,7 @@
 package Misc.Arrays;
 import java.util.*;
 public class ProductArrayExceptSElf {
-    @SuppressWarnings ("all")
+    @SuppressWarnings ("resource")
     public static final int MOD = (int)Math.pow(10,9) + 7;
     public static void main(String[]args){
         Scanner sc=new Scanner(System.in);
