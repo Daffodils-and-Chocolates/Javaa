@@ -1,6 +1,7 @@
 import java.util.*;
 public class Playground2 {
     public static final long MOD = (int)Math.pow(10,9) + 7;
+    @SuppressWarnings ("all")
     public static void main(String[]args){
         Scanner sc=new Scanner(System.in);
         int c=sc.nextInt();
