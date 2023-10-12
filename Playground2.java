@@ -1,37 +1,39 @@
-import java.util.*;
-public class Playground2 {
-    public static final long MOD = (int)Math.pow(10,9) + 7;
-    @SuppressWarnings ("all")
-    public static void main(String[]args){
-        Scanner sc=new Scanner(System.in);
-        int c=sc.nextInt();
-        
-        while(c-->0){
-        int n=sc.nextInt();
-        int arr[]=new int[n];
-        for(int i=0;i<n;i++) arr[i]=sc.nextInt();//array input
+import java.util.Scanner;
 
-        int ans[]=getProductArrayExceptSelf(arr);
-        for(int i=0;i<n-1;i++) System.out.print(ans[i]+"_");
-        if(n>0)System.out.println(ans[n-1]);
-        // System.out.println(StringUtils.join(ans,"_"));
-        }
+public class Playground2 {
+    @SuppressWarnings ("resource")
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        System.out.println(countNQueens(4));
     }
-    public static int[] getProductArrayExceptSelf(int[] arr) {
-        int a=arr.length;
-        long prod=1;
-        int c=0;
-        for(int i=0;i<a;i++){
-            if(arr[i]!=0) prod*=arr[i];
-            else c++;
-            prod%= MOD;
+
+    static int countNQueens(int n) {
+        int[] colPlacements = new int[n];
+        return solveNQueens(colPlacements, 0);
+    }
+
+    static int solveNQueens(int[] colPlacements, int row) {
+        if (row == colPlacements.length) {
+            return 1;
         }
-        int[] pro=new int[a];
-        for(int i=0;i<a;i++){
-            if(c>1)pro[i]= 0;
-            else if(c==1 && arr[i]!=0) pro[i] = 0;            
-            else pro[i] = (int) ((arr[i]==0)? prod : ((prod/(long)arr[i])%MOD));
+
+        int count = 0;
+        for (int col = 0; col < colPlacements.length; col++) {
+            colPlacements[row] = col;
+            if (isValid(colPlacements, row)) {
+                count += solveNQueens(colPlacements, row + 1);
+            }
         }
-        return pro;
+        return count;
+    }
+
+    static boolean isValid(int[] colPlacements, int row) {
+        for (int i = 0; i < row; i++) {
+            int diff = Math.abs(colPlacements[i] - colPlacements[row]);
+            if (diff == 0 || diff == row - i) {
+                return false;
+            }
+        }
+        return true;
     }
 }
