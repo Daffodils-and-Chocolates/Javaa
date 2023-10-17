@@ -19,6 +19,7 @@
 	"scope": "java",
   "prefix": "bbasic",
   "body": [
+	"@SuppressWarnings (\"all\")"
 	"public static final Scanner sc = new Scanner(System.in);",
     "public static void main(String args[]){",
     "\t$0",

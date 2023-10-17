@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "PermutationByRecursion",
+            "request": "launch",
+            "mainClass": "Class.Recursion.PermutationByRecursion",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
             "name": "ProductArrayExceptSElf",
             "request": "launch",
             "mainClass": "Misc.Arrays.ProductArrayExceptSElf",
