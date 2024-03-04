@@ -19,7 +19,7 @@
 	"scope": "java",
   	"prefix": "Playground",
   	"body": [
-		"import java.util.Scanner;",
+		"import java.util.*;",
 		"",
 		"public class Playground {",
 		"\t@SuppressWarnings (\"resource\")",

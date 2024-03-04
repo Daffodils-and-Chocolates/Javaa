@@ -5,9 +5,9 @@ public class TowerOfHanoi {
     public static final Scanner sc = new Scanner(System.in);
     public static void main(String args[]){
         int n = sc.nextInt();
-        TowerOfHanoi();
+        towerOfHanoi('A','B','C');
     }
-    static void TowerOfHanoi(){
-
+    static void towerOfHanoi(char start_rod,char travel_rod, char end_rod){
+        
     }
 }

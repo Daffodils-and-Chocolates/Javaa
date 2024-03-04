@@ -12,6 +12,7 @@ public class PrincipalDiagonalAndSecondaryDiagonalIn2dArray {
             }
         }
         int psum =0, ssum=0;
+        //diagonal sum
         for(int i=0;i<n;i++){
             psum+=arr[i][i];
             for(int j=0;j<n;j++){

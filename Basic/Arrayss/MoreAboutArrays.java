@@ -8,7 +8,7 @@ public class MoreAboutArrays {
         marks[1]=12;
         marks[2]=17;
         System.out.println("Array won't print in java if you try to print it like a data type"+marks);
-        // System.out.print"ln("\nThe System.out.println() method converts the object we passed into a string by calling String.valueOf() . If we look at the String.valueOf() method's implementation, we'll see this:\n---------------------------\npublic static String valueOf(Object obj) {\n\t    return (obj == null) ? \"null\" : obj.toString();\n}\n---------------------------\n\nIf that object's class does not override Object.toString()'s implementation, it will call the Object.toString() method.\n\nObject.toString() returns getClass().getName()+'@'+Integer.toHexString(hashCode()) .");
+        System.out.println("\nThe System.out.println() method converts the object we passed into a string by calling String.valueOf() . If we look at the String.valueOf() method's implementation, we'll see this:\n---------------------------\npublic static String valueOf(Object obj) {\n\t    return (obj == null) ? \"null\" : obj.toString();\n}\n---------------------------\n\nIf that object's class does not override Object.toString()'s implementation, it will call the Object.toString() method.\n\nObject.toString() returns getClass().getName()+'@'+Integer.toHexString(hashCode()) .");
         System.out.println("\nIn simple terms, it returns: \"class name @ object's hash code\".\nHere [ represents class Array\nI shows data type Integer\n2c7b84de shows hexadecimal of the hash code");
         //can also be initialized like
         String[] subjects = {"English", "Maths" , "Physics" , "Biology"};

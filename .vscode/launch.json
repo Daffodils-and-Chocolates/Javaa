@@ -6,6 +6,202 @@
     "configurations": [
         {
             "type": "java",
+            "name": "DequeDemo",
+            "request": "launch",
+            "mainClass": "DequeDemo",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "ThreadTest",
+            "request": "launch",
+            "mainClass": "Class.VISem.ThreadTest",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "ThreadTest",
+            "request": "launch",
+            "mainClass": "ThreadTest",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "VerifyingAnAlienDictionary",
+            "request": "launch",
+            "mainClass": "LeetCode.VerifyingAnAlienDictionary",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "WeightedGraphhAdjacencyList",
+            "request": "launch",
+            "mainClass": "Basic.Graphs.AdjacencyList.WeightedGraphhAdjacencyList",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "UnweightedGraphAdjacencyList",
+            "request": "launch",
+            "mainClass": "Basic.Graphs.AdjacencyList.UnweightedGraphAdjacencyList",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "PrintSubstringsInSpecificOrder",
+            "request": "launch",
+            "mainClass": "Misc.Strings.easy.PrintSubstringsInSpecificOrder",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "checkWhetherGivenStringCanBeGeneratedAfterConcatingWithTheOther",
+            "request": "launch",
+            "mainClass": "Misc.Strings.easy.checkWhetherGivenStringCanBeGeneratedAfterConcatingWithTheOther",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "MaxLengthOfKSubstringHavingSameCharacters",
+            "request": "launch",
+            "mainClass": "Misc.Strings.easy.MaxLengthOfKSubstringHavingSameCharacters",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "CheckIfGivenStringIsKPeriodic",
+            "request": "launch",
+            "mainClass": "Misc.Strings.easy.CheckIfGivenStringIsKPeriodic",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "CountNumberOfSubStringsWithNumericValueOverX",
+            "request": "launch",
+            "mainClass": "Misc.Strings.easy.CountNumberOfSubStringsWithNumericValueOverX",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "ifAStringContainsAPalindromicSubstringOfEvenLength",
+            "request": "launch",
+            "mainClass": "Misc.Strings.easy.ifAStringContainsAPalindromicSubstringOfEvenLength",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "countOfPalindromicSubStrongOfAStringInItsSortedForm",
+            "request": "launch",
+            "mainClass": "Misc.Strings.easy.countOfPalindromicSubStrongOfAStringInItsSortedForm",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "SubstringReversePattern",
+            "request": "launch",
+            "mainClass": "Misc.Strings.easy.SubstringReversePattern",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "PrintAllSubstringsOfNumberWithoutConversion",
+            "request": "launch",
+            "mainClass": "Misc.Strings.PrintAllSubstringsOfNumberWithoutConversion",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "QuickSort",
+            "request": "launch",
+            "mainClass": "Basic.Sorting.QuickSort",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "MergeSort",
+            "request": "launch",
+            "mainClass": "Basic.Sorting.MergeSort",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "Calculator",
+            "request": "launch",
+            "mainClass": "GUI.awt.Calculator",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "SwapTextFields",
+            "request": "launch",
+            "mainClass": "GUI.awt.SwapTextFields",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "PrintWelsomeOnSubmit",
+            "request": "launch",
+            "mainClass": "GUI.awt.PrintWelsomeOnSubmit",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "basic",
+            "request": "launch",
+            "mainClass": "GUI.awt.basic",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "animals",
+            "request": "launch",
+            "mainClass": "animals",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "first",
+            "request": "launch",
+            "mainClass": "first",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "Playgr2ound",
+            "request": "launch",
+            "mainClass": "Playgr2ound",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "aPattern",
+            "request": "launch",
+            "mainClass": "Test.Basic.aPattern",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "PrincipalDiagonalAndSecondaryDiagonalIn2dArray",
+            "request": "launch",
+            "mainClass": "Test.Arrays.PrincipalDiagonalAndSecondaryDiagonalIn2dArray",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "MergeAndSortArray",
+            "request": "launch",
+            "mainClass": "Test.Arrays.MergeAndSortArray",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "N_queenProblem",
+            "request": "launch",
+            "mainClass": "Class.Backtracking.N_queenProblem",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
             "name": "PermutationByRecursion",
             "request": "launch",
             "mainClass": "Class.Recursion.PermutationByRecursion",
