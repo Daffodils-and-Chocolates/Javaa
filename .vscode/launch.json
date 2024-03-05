@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RemoveIf",
+            "request": "launch",
+            "mainClass": "RemoveIf",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "DequeDemo",
+            "request": "launch",
+            "mainClass": "Class.VISem.DequeDemo",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
             "name": "DequeDemo",
             "request": "launch",
             "mainClass": "DequeDemo",

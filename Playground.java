@@ -1,14 +1,16 @@
 import java.util.*;
 
-class DequeDemo {
+public class Playground {
     @SuppressWarnings ("resource")
     public static void main(String args[]){
-        Deque<Integer> d = new ArrayDeque<Integer>();        
-        d.add(10);
-        d.addFirst(20);
-        d.addFirst(30);
-
-        System.out.println("Deque " + d);
-        //add first comes from queue interface but add method comes from difeerent somewhere
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter size of Array : ");
+        int n = sc.nextInt();
+        int[] arr=new int[n];
+        System.out.println("Enter elements of Array : ");
+        for(int i=0;i<n;i++){
+            arr[i]=sc.nextInt();
+        }
+        
     }
 }
