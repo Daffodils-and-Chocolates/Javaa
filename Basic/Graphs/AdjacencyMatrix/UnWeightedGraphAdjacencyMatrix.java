@@ -10,6 +10,6 @@ public class UnWeightedGraphAdjacencyMatrix {
         
     }
     static void createGraph(int[][] graph){
-        
+        Arrays.fill(graph, 0);
     }
 }

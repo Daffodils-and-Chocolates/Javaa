@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AWQ",
+            "request": "launch",
+            "mainClass": "AWQ",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "Filling",
+            "request": "launch",
+            "mainClass": "Filling",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "stringalgo",
+            "request": "launch",
+            "mainClass": "stringalgo",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
             "name": "RemoveIf",
             "request": "launch",
             "mainClass": "RemoveIf",
