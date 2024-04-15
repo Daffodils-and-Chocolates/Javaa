@@ -1,28 +1,55 @@
-import java.util.*;
-//circular array
-public class Playground {
-	@SuppressWarnings ("resource")
-	public static void main(String args[]){
-		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter size of Array : ");
-		int n = sc.nextInt();
-		int[] arr=new int[n];
-		System.out.println("Enter elements of Array : ");
-		for(int i=0;i<n;i++){
-			arr[i]=sc.nextInt();
+import java.io.*;
+
+// Java program for Inserting a node
+class GFG {
+	static class node {
+		int value;
+		node left, right;
+	};
+
+	static node newNode(int item) {
+		node temp = new node();
+		temp.value = item;
+		temp.left = temp.right = null;
+		return temp;
+	}
+
+	static node insert(node node, int value) {
+		if (node == null)
+			return newNode(value);
+		if (value < node.value) {
+			node.left = insert(node.left, value);
+		} 
+		else if (value > node.value) {
+			node.right = insert(node.right, value);
 		}
-		int maxSum = Integer.MIN_VALUE;
-		for(int i=0;i<n;i++){
-			int currentSum = 0;
-			for(int j=i;j<n;j++){//linear sum
-				currentSum+=arr[j];
-				if(currentSum > maxSum) maxSum = currentSum;
-			}
-			for(int j=0;j<i;j++){//circularly
-				currentSum+=arr[j];
-				if(currentSum > maxSum) maxSum = currentSum;
-			}
+		inorder(node);
+		System.out.println();
+		return node;
+	}
+
+	static void delete(node node){
+
+	}
+
+	static void inorder(node root) {
+		if (root != null) {
+			inorder(root.left);
+			System.out.print(" " + root.value);
+			inorder(root.right);
 		}
-		System.out.println(maxSum);
+	}
+
+	public static void main(String[] args) {
+		node root = null;
+		root = insert(root, 7);
+		insert(root, 0);
+		insert(root, 8);
+		insert(root, 1);
+		insert(root, 2);
+		insert(root, 3);
+		insert(root, 5);
+
+		inorder(root);
 	}
 }
