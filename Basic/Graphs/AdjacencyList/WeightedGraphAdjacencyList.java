@@ -40,12 +40,16 @@ public class WeightedGraphAdjacencyList {
             Edge e = graph[v].get(i);
             System.out.println(e.dest +" "+e.weight);
         }
+        System.out.println();
     }
 
     public static void main(String args[]){
         int V = 4;
         ArrayList<Edge> graph[] = new ArrayList[V];
         createGraph(graph);
+        printNeighbours(graph, 0);
         printNeighbours(graph, 1);
+        printNeighbours(graph, 2);
+        printNeighbours(graph, 3);
     }
 }

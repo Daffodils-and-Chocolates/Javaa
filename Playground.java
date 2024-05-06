@@ -1,55 +1,80 @@
-import java.io.*;
+import java.util.*;
 
-// Java program for Inserting a node
-class GFG {
-	static class node {
-		int value;
-		node left, right;
-	};
+public class Playground {
+    @SuppressWarnings("resource")
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        Graph g = new Graph();
+        g.createDefaultGraph();
+        System.out.println(g);
+        Collections.sort(g.graph);
+        System.out.println(g);
+    }
+}
 
-	static node newNode(int item) {
-		node temp = new node();
-		temp.value = item;
-		temp.left = temp.right = null;
-		return temp;
-	}
+class Edge implements Comparable<Edge>{
+    int src;
+    int dest;
+    int weight;
 
-	static node insert(node node, int value) {
-		if (node == null)
-			return newNode(value);
-		if (value < node.value) {
-			node.left = insert(node.left, value);
-		} 
-		else if (value > node.value) {
-			node.right = insert(node.right, value);
-		}
-		inorder(node);
-		System.out.println();
-		return node;
-	}
+    Edge(int src, int dest, int weight) {
+        this.src = src;
+        this.dest = dest;
+        this.weight = weight;
+    }
+    public int compareTo(Edge s){
+        return this.weight - s.weight;
+    }
+    public String toString(){
+        return this.src + " " + this.dest +" " + this.weight;
+    }
+}
 
-	static void delete(node node){
+class Graph {
+    public static final Scanner sc = new Scanner(System.in);
+    ArrayList<Edge> graph;
 
-	}
+    Graph() {
+        graph = new ArrayList<Edge>();
+    }
 
-	static void inorder(node root) {
-		if (root != null) {
-			inorder(root.left);
-			System.out.print(" " + root.value);
-			inorder(root.right);
-		}
-	}
+    void createDefaultGraph(){
+        graph.add(new Edge(0,2,2));
+    
+        graph.add(new Edge(1,2,10));
+        graph.add(new Edge(1,3,0));
+    
+        graph.add(new Edge(2,0,2));
+        graph.add(new Edge(2,1,10));
+        graph.add(new Edge(2,3,-1));
+    
+        graph.add(new Edge(3,1,0));
+        graph.add(new Edge(3,2,-1));
+    }
 
-	public static void main(String[] args) {
-		node root = null;
-		root = insert(root, 7);
-		insert(root, 0);
-		insert(root, 8);
-		insert(root, 1);
-		insert(root, 2);
-		insert(root, 3);
-		insert(root, 5);
+    void createGraphByInput() {
+        System.out.println("Enter number of edges");
+        int v = sc.nextInt();
+        for (int i = 0; i < v; i++) {
+            int dest = sc.nextInt();
+            int weight = sc.nextInt();
+            graph.add(new Edge(v, dest, weight));
+        }
+    }
 
-		inorder(root);
-	}
+    void kuruksals(){
+        int V = graph.size(); // Number of vertices
+        Collections.sort(graph); // Sort edges by weight
+        int j = 0;
+        int noOfEdges = 0;
+
+    }
+
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        for (Edge edge : graph) {
+            sb.append(edge.toString()).append("\n");
+        }
+        return sb.toString();
+    }
 }

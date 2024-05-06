@@ -6,6 +6,62 @@
     "configurations": [
         {
             "type": "java",
+            "name": "WeightedGraphAdjacencyList",
+            "request": "launch",
+            "mainClass": "Basic.Graphs.AdjacencyList.WeightedGraphAdjacencyList",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "PrintAllPossiblePathsFromSourceToTarget",
+            "request": "launch",
+            "mainClass": "Basic.Graphs.PrintAllPossiblePathsFromSourceToTarget",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "printAllPossiblePathsfromSourceToTarget",
+            "request": "launch",
+            "mainClass": "Basic.Graphs.printAllPossiblePathsfromSourceToTarget",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "SignlyLinkedListImplement",
+            "request": "launch",
+            "mainClass": "Basic.LinkedList.SignlyLinkedListImplement",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "UnWeightedGraphAdjacencyMatrix",
+            "request": "launch",
+            "mainClass": "Basic.Graphs.AdjacencyMatrix.UnWeightedGraphAdjacencyMatrix",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "FindXORfromN1toN2",
+            "request": "launch",
+            "mainClass": "Class.BitMasking.FindXORfromN1toN2",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "PrintingInDecimalPoints",
+            "request": "launch",
+            "mainClass": "Basic.Beginner.PrintingInDecimalPoints",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
+            "name": "CommonItems",
+            "request": "launch",
+            "mainClass": "CommonItems",
+            "projectName": "Javaa_fc465c0f"
+        },
+        {
+            "type": "java",
             "name": "GFG",
             "request": "launch",
             "mainClass": "GFG",
