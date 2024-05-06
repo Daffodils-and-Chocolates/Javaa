@@ -62,12 +62,72 @@ class Graph {
         }
     }
 
+    class Subset { 
+        int parent, rank; 
+        public Subset(int parent, int rank) 
+        { 
+            this.parent = parent; 
+            this.rank = rank; 
+        } 
+    } 
+
     void kuruksals(){
-        int V = graph.size(); // Number of vertices
-        Collections.sort(graph); // Sort edges by weight
+        int V = graph.size();
+        Collections.sort(graph);
         int j = 0;
         int noOfEdges = 0;
+        Subset subsets[] = new Subset[V];
 
+        for (int i = 0; i < V; i++) {
+            subsets[i] = new Subset(i, 0);
+        }
+
+        Edge results[] = new Edge[V];
+
+        while (noOfEdges < V - 1) {
+            Edge nextEdge = graph.get(j);
+            int x = findRoot(subsets, nextEdge.src);
+            int y = findRoot(subsets, nextEdge.dest);
+
+            if (x != y) {
+                results[noOfEdges] = nextEdge;
+                union(subsets, x, y);
+                noOfEdges++;
+            }
+
+            j++;
+        }
+
+        System.out.println("Following are the edges of the constructed MST:");
+        int minCost = 0;
+        for (int i = 0; i < noOfEdges; i++) {
+            System.out.println(results[i].src + " -- " + results[i].dest + " == " + results[i].weight);
+            minCost += results[i].weight;
+        }
+        System.out.println("Total cost of MST: " + minCost);
+    }
+
+    private void union(Subset[] subsets, int x, int y) {
+        int rootX = findRoot(subsets, x);
+        int rootY = findRoot(subsets, y);
+
+        if (subsets[rootY].rank < subsets[rootX].rank) {
+            subsets[rootY].parent = rootX;
+        } else if (subsets[rootX].rank < subsets[rootY].rank) {
+            subsets[rootX].parent = rootY;
+        } else {
+            subsets[rootY].parent = rootX;
+            subsets[rootX].rank++;
+        }
+    }
+
+    private int findRoot(Subset[] subsets, int i) {
+        if (subsets[i].parent == i)
+            return subsets[i].parent;
+
+        subsets[i].parent
+            = findRoot(subsets, subsets[i].parent);
+        return subsets[i].parent;
     }
 
     public String toString() {
