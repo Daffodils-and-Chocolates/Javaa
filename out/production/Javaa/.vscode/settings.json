@@ -10,18 +10,10 @@
     // "editor.hover.enabled": false,
     "files.exclude": {
     "**/.settings": false,
-    "**/.cph": true,
     "**/*.class": true
     },
     "java.inlayHints.parameterNames.enabled": "none",
     "editor.parameterHints.enabled": false,
-    "java.completion.enabled": true,
-    "[java]": {
-    "editor.codeActionsOnSave": {
-        "source.organizeImports": "explicit"
-    }
-    },
-    // "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
         "c:\\Program Files\\Java\\javafx-sdk-20\\lib\\javafx-swt.jar",

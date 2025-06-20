@@ -1,0 +1,14 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "run-with-input-file",
+      "type": "shell",
+      "command": "javac '${file}' && java '${fileBasenameNoExtension}' < /home/sim/inputs/input.txt",
+      "problemMatcher": [],
+      "options": {
+        "cwd": "${fileDirname}"
+      }
+    }
+  ]
+}

@@ -1,8 +1,6 @@
 package Class.WritingEfficientCode;
 import java.util.*;
 
-import javafx.scene.SnapshotParameters;
-
 class Student implements Comparable<Student>{
     int rn;
     String name;
